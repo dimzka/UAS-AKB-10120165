@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tugas-UAS-Genap-2023AKBIF4-10120165</string>
+    <string name="notice">Selamat Datang!</string>
+    <string name="notice2">Silahkan Daftarkan akun!</string>
+    <string name="Padding"> </string>
+    <string name="keterangan1">Masukan Email</string>
+    <string name="keterangan2">Masukan Password</string>
+    <string name="login">Login</string>
+    <string name="register"> Daftar</string>
+    <string name="haveakun">Sudah Memiliki akun ? </string>
+    <string name="noakun">Belum Memiliki akun ? </string>
+    <string name="titleProgress">Loading</string>
+    <string name="IsiProgress">Mohon Menunggu</string>
+    <string name="profil">Profile</string>
+    <string name="catat">Write</string>
+    <string name="info">Home</string>
+    <string name="logout">Logout</string>
+    <string name="nama">Nama: Muhamad Dimas Azka Syarif Umair</string>
+    <string name="kelas">Kelas: IF-4</string>
+    <string name="nim">NIM: 10120165</string>
+    <string name="email">Email: dimas.10120165@mahasiswa.unikom.ac.id</string>
+    <string name="txt_welcome">Selamat Datang</string>
+    <string name="txt_intro">di Diary </string>
+    <string name="page1">Page 1 of 2</string>
+    <string name="page2">Page 2 of 2</string>
+    <string name="title_memo">Informasi tentang aplikasi</string>
+    <string name="penjelasan">Aplikasi ini dibuat untuk memenuhi Tugas UAS Aplikasi Komputasi Bergerak </string>
+    <string name="txt_add">Catat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

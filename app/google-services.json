@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "979098257459",
+    "firebase_url": "https://uasakb10120165-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uasakb10120165",
+    "storage_bucket": "uasakb10120165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979098257459:android:82de1478d92148a5c4bb46",
+        "android_client_info": {
+          "package_name": "com.TUGASUAS10120165"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979098257459-r53mk69nos81emvoddcalgmkcabhqvf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.TUGASUAS10120165",
+            "certificate_hash": "6748a57c743d2c1ebb3b49c88d04017d37f91206"
+          }
+        },
+        {
+          "client_id": "979098257459-u01j3h417uuogvrj7vfp74rmu352pfpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFUBkmXnNI8Q1JxkWxKuCNIjogG-BLG3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979098257459-l2ipvim76061usmpc0sagmnrp68jmfst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979098257459:android:9e564df3882ac948c4bb46",
+        "android_client_info": {
+          "package_name": "com.tugasutsgenap.uasakb10120165"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979098257459-u01j3h417uuogvrj7vfp74rmu352pfpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFUBkmXnNI8Q1JxkWxKuCNIjogG-BLG3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979098257459-l2ipvim76061usmpc0sagmnrp68jmfst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
