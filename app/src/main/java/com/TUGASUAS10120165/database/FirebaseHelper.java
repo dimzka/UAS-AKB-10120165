@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.database;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 import android.database.Cursor;
 
 import com.TUGASUAS10120165.NoteInterface;
@@ -51,5 +51,5 @@ public class FirebaseHelper implements NoteInterface {
     }
 }
 
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 

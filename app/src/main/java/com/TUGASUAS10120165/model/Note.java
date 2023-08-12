@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.model;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 import java.io.Serializable;
 
 public class Note implements Serializable {

@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.Auth;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -160,3 +160,4 @@ public class Loginctivity extends AppCompatActivity {
     }
 
 }
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4

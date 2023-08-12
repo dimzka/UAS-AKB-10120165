@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.view.fragment;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;

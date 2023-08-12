@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.adapter;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;

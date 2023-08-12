@@ -1,5 +1,5 @@
 package com.TUGASUAS10120165.model;
-
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
 public class User {
 
     String userId, name, profile;
@@ -37,3 +37,4 @@ public class User {
         this.profile = profile;
     }
 }
+// 10120165 - Muhamad Dimas Azka Syarif Umair - IF4
