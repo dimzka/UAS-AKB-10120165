@@ -21,6 +21,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import com.TUGASUAS10120165.R;
+import com.TUGASUAS10120165.Service.MyFirebaseMessagingService;
 import com.TUGASUAS10120165.database.FirebaseHelper;
 import com.TUGASUAS10120165.model.Note;
 
@@ -39,6 +40,7 @@ public class AddNoteActivity extends AppCompatActivity {
     private FirebaseHelper FirebaseHelp;
     private static final String CHANNEL_ID = "testing-notification_channel";
     private static final int NOTIFICATION_ID = 1;
+    MyFirebaseMessagingService myFirebaseMessagingService = new MyFirebaseMessagingService();
 
     Note note = null;
 
@@ -86,10 +88,8 @@ public class AddNoteActivity extends AppCompatActivity {
                         editDesc.getText().toString(),
                          date + ""
                 );
-
                 FirebaseHelp.create(n);
-                showNotification("Catatan berhasil ditambahkan");
-
+                myFirebaseMessagingService.sendNotification("Berhasil", "Menambahkan catatan baru");
                 finish();
             });
         } else {
@@ -117,44 +117,19 @@ public class AddNoteActivity extends AppCompatActivity {
                 note.setCategory(editCategory.getText().toString());
                 note.setDesc(editDesc.getText().toString());
                 note.setDate("terakhir di edit " + date + "");
+                myFirebaseMessagingService.sendNotification("Edit", "Catatan Telah Dirubah");
                 FirebaseHelp.update(note);
                 finish();
-                Toast.makeText(this, "Catatan berhasil di edit", Toast.LENGTH_SHORT).show();
             });
         }
 
         deleteButton.setOnClickListener(v -> {
             FirebaseHelp.delete(note.getId());
             finish();
-            Toast.makeText(this, "Catatan berhasil di hapus", Toast.LENGTH_SHORT).show();
+            myFirebaseMessagingService.sendNotification("Hapus", "Catatan Telah dihapus");
         });
 
 
-    }
-
-    private void showNotification(String message) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel(
-                    CHANNEL_ID,
-                    "Test_Notif",
-                    NotificationManager.IMPORTANCE_DEFAULT
-            );
-            NotificationManager notificationManager = getSystemService(NotificationManager.class);
-            notificationManager.createNotificationChannel(channel);
-        }
-
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setSmallIcon(R.drawable.icon_notes)
-                .setContentTitle("TestNote")
-                .setContentText(message)
-                .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-
-        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
-
-            return;
-        }
-        notificationManager.notify(NOTIFICATION_ID, builder.build());
     }
 
 }

@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                                 });
                         AlertDialog alertDialog = alertDialogBuilder.create();
                         alertDialog.show();
-
                 }
                 return getFragmentPage(fragment);
             }
